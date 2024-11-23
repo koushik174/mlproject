@@ -1,0 +1,43 @@
+
+# Database configuration
+database:
+  connection_string: "sqlite:///maritime_data.db"
+  pool_size: 5
+  max_overflow: 10
+  timeout: 30
+
+# Model configuration
+model:
+  name: "mistralai/Mistral-7B-v0.1"
+  temperature: 0.7
+  max_length: 512
+  load_in_4bit: true
+  device: "auto"
+
+# Visualization settings
+visualization:
+  default_width: 800
+  default_height: 500
+  theme: "plotly_white"
+  map_style: "open-street-map"
+
+# Maritime specific settings
+maritime:
+  vessel_types:
+    - "Container Ship"
+    - "Bulk Carrier"
+    - "Tanker"
+    - "Passenger"
+    - "Cargo"
+  default_ports:
+    - "Rotterdam"
+    - "Singapore"
+    - "Shanghai"
+    - "Los Angeles"
+    - "Hamburg"
+
+# Cache settings
+cache:
+  enabled: true
+  ttl: 3600
+  max_entries: 1000
