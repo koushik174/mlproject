@@ -1,0 +1,29 @@
+# Core dependencies
+streamlit==1.31.0
+langchain==0.1.0
+pandas==2.2.0
+numpy==1.24.3
+
+# Database
+sqlalchemy==2.0.25
+sqlite3==3.35.0
+
+# Visualization
+plotly==5.18.0
+folium==0.15.1
+geopy==2.4.1
+
+# Machine Learning & NLP
+transformers==4.37.0
+torch==2.2.0
+accelerate==0.27.0
+bitsandbytes==0.41.0
+
+# Utilities
+pyyaml==6.0.1
+python-dotenv==1.0.0
+typing-extensions==4.9.0
+
+# Optional but recommended
+jupyter==1.0.0
+ipykernel==6.29.0
